@@ -1,32 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UIC CS Courses Advice</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<html lang="en">  <!gives seach engine knowledge of what language website is in >
+  <head>
+    <meta charset="UTF-8" /> <! Gives character set to browser, UTF-8 is the most common>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  <! Sets the width of the page to the width of the device >
+    <title>UIC CS Courses Advice</title> <! Title of the page (on the tab of site) >
+    <link rel="stylesheet" href="style.css" />  <! 'ink to the CSS file >
+  </head>
+  <body>
     <h1>
-        Advice on UIC CS Courses!
-        <img src="/images/UICLogo.png" alt="UIC Logo" width="50" height="50">
-       </h1>
-    <hr> 
-    <img class = "banner" src="/images/UIC_Banner.png" alt="UIC Banner" width="900" height="130">
+      Advice on UIC CS Courses! 
+      <img src="/images/UICLogo.png" alt="UIC Logo" width="50" height="50" />  <! Image of UIC logo used in header>
+    </h1>
+    <hr />
+    <div class="bannerBox">  <! Div for the banner (div is a container for other elements) >
+      <img 
+        class="banner"  
+        src="/images/UIC_Banner.png"
+        alt="UIC Banner"  
+        width="900"
+        height="130"
+      />  <! Image of UIC banner contained in the banner box, alt is used if the image doesn't load>
+    </div>
     <h2>List of courses:</h2>
     <ul>
-        <button type="button" onclick="window.location.href='141Page.html'">CS 141</button>
-            <button type="button" onclick="window.location.href='141Page.html'">CS 151</button>
-    </ul>   
+      <button type="button" onclick="window.location.href='141Page.html'">  <! Button that links to the 141Page.html >
+        CS 141
+      </button>
+      <button type="button" onclick="window.location.href='141Page.html'">
+        CS 151
+      </button>
+    </ul>
 
-   <h2> Advice from CS Majors:</h2>
+    <h2>Overall Advice from CS Majors:</h2>
 
-     <div class = "adviceBox">
-         <img  class = "advicePic" src="/images/SamImage.PNG" alt = "CS major Image">
-         <div class = "adviceText">   "Please read the whole write up, I have missed something and lost a lot of points 
-            on programs I've worked very hard on" </div>
+    <div class="adviceBox">  <! Div for the advice box >
+      <img class="advicePic" src="/images/SamImage.PNG" alt="CS major Image" />  <! Image of CS major >
+      <div class="adviceText">
+        "Please read all the project materials before starting! It's easier if
+        you understand the project as a whole before writing code"
+      </div>
     </div>
-    <h2> Resources:</h2>
-
-</body>
+    <h2>Resources:</h2>
+  </body>
 </html>
