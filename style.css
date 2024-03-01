@@ -1,0 +1,59 @@
+body {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f2f7eb;
+}
+h1 {
+    font-size: 50px;
+    color: #d50032;
+}
+h2 {
+    font-size: 35px;
+    color: #d50032;
+}
+banner {
+    width: auto;
+    height: auto;
+
+}
+button {
+    background-color: #001e62;
+    border: 4px solid #d50032;
+    border-radius: 16px;
+    font-size: 40px;
+    font-family: lauren, sans-serif;
+    color: #f2f7eb;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 10%;
+}
+button:hover {
+    background-color: #333333;
+}
+.adviceBox{ 
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 400px;
+    width: auto;
+    background-color: #001e62;
+    border: 4px solid #d50032;
+    box-shadow:  0 0 15px #333333;
+
+}
+.advicePic{
+    border: 15px solid #d50032;
+    border-radius: 50%;
+    scale : 0.6;
+    width: auto;
+    height: auto;
+}
+
+.adviceText{
+    font-size: 3.5rem;
+    font: bold;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+}
